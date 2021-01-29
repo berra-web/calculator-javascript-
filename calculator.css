@@ -1,0 +1,63 @@
+body, html {
+    background: #ECEDEF;
+    margin: 0;
+    padding: 0;
+    background: #100a1c;
+    color: #6cacc5;
+    background-image:
+    radial-gradient(50% 30% ellipse at center top, #201e40 0%, rgba(0,0,0,0) 100%),
+    radial-gradient(60% 50% ellipse at center bottom, #261226 0%, #100a1c 100%);
+    background-attachment: fixed;
+}
+.container {
+    border: rgb(0, 193, 206) 2px solid;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+}
+.row {
+    width: 100%;
+    float: left;
+}
+input[type=button] {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    box-sizing: border-box;
+    font-size: 20px;
+    line-height: 30px; 
+    font-weight: 500;
+    cursor: pointer;
+    background: rgba(42,50,113, .28);
+    color: #0fa9e6;
+    float: left;
+    margin: 0.25em;
+    transition: all 0.5s;
+}
+input:hover{
+    background: #2d6576;   
+}
+#equal{
+    width: 140px;
+}
+input[type=text] {
+    height: 60px;
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    border: rgb(0, 193, 206) 2px solid;
+    background: none;
+    color: #ffffff;
+    text-align: right;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 60px; 
+}
+.red {
+    background: #16bdff !important;
+    color: #ffffff !important;
+
+}
